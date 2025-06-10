@@ -18,7 +18,7 @@ const Navbar = (props: NavbarProps) => {
   };
 
   return (
-    <div className="bg-gradient-to-br fixed top-10 sm:right-100 z-1001 from-slate-50 to-slate-200 shadow-xl flex font-semibold items-center px-4 py-1 max-w-4xl mx-auto rounded-full">
+    <div className="bg-gradient-to-br fixed top-5 sm:top-10 sm:right-100 z-1001 from-slate-50 to-slate-200 shadow-xl flex font-semibold items-center px-4 py-1 max-w-4xl mx-auto rounded-full">
       <div className="flex sm:hidden space-x-8 overflow-x-auto py-1 px-1">
         {sectionMobile.map((item, idx) => (
           <button

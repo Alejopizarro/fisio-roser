@@ -5,10 +5,10 @@ import { Avatar, AvatarFallback } from "./ui/avatar";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-center h-full pt-30 max-w-auto max-h-[100vh]">
+    <div className="flex flex-col sm:flex-row items-center justify-center h-full mt-30 max-w-auto max-h-[100vh]">
       <div className="flex flex-col items-start justify-center space-y-8 w-full">
-        <h1 className="text-5xl md:text-6xl 2xl:text-7xl font-extrabold italic text-gray-800 text-shadow-gray-400 text-shadow-xs leading-none tracking-tight">
-          Fisioterapeuta en <br />
+        <h1 className="text-4xl md:text-6xl 2xl:text-7xl font-extrabold italic text-gray-800 text-shadow-gray-400 text-shadow-xs leading-none tracking-tight">
+          Fisioterapeuta en <br className="hidden md:flex" />
           <span className="text-purple-800 font-medium md:text-5xl 2xl:text-6xl  text-shadow-pink-200 text-shadow-xs">
             * San Pedro de Alcantara
           </span>
