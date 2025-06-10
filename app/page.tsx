@@ -27,23 +27,30 @@ export default function Home() {
     { name: "agendar cita", scroll: citaRef },
   ];
 
+  const sectionsMobile: SectionRefs[] = [
+    { name: "inicio", scroll: heroRef },
+    { name: "agendar cita", scroll: citaRef },
+  ];
+
   return (
-    <div className="flex flex-col items-center justify-center p-4 space-y-8 sm:px-10 lg:px-16 xl:px-20 2xl:px-24">
-      <Navbar section={sections} />
-      <div ref={heroRef}>
+    <div className="flex flex-col items-center justify-center p-6 sm:px-10 lg:px-16 xl:px-20 2xl:px-24">
+      <Navbar section={sections} sectionMobile={sectionsMobile} />
+      <div className="w-full" ref={heroRef}>
         <Hero />
       </div>
       <div className="w-full" ref={aboutMeRef}>
         <AboutMe />
       </div>
-      <div className="w-full" ref={servicesRef}>
-        <Services />
-      </div>
-      <div className="w-full" ref={reviewsRef}>
-        <Reviews />
-      </div>
-      <div className="w-full" ref={citaRef}>
-        <Doctoralia />
+      <div className="space-y-8 w-full">
+        <div className="w-full" ref={servicesRef}>
+          <Services />
+        </div>
+        <div className="w-full" ref={reviewsRef}>
+          <Reviews />
+        </div>
+        <div className="w-full" ref={citaRef}>
+          <Doctoralia />
+        </div>
       </div>
     </div>
   );
