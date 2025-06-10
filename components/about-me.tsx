@@ -3,7 +3,7 @@ import { Medal, MessageCircle, Star } from "lucide-react";
 
 const AboutMe = () => {
   return (
-    <div className="-translate-y-24 sm:-translate-y-8 xl:-translate-y-10 2xl:-translate-y-12 z-100 relative flex flex-col-reverse lg:flex-row items-center bg-primary rounded-xl rounded-bl-4xl shadow-2xl text-slate-50 w-full">
+    <div className="-translate-y-8 xl:-translate-y-10 2xl:-translate-y-12 z-100 relative flex flex-col-reverse lg:flex-row items-center bg-primary rounded-xl rounded-bl-4xl shadow-2xl text-slate-50 w-full">
       <div className="absolute z-10 -top-3 left-0 h-3 rounded-t-2xl w-11/12 mx-4 lg:mx-14 shadow-2xl bg-purple-300 pointer-events-none" />
       <Image
         src="/salon-fisio.jpg"
