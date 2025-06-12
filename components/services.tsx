@@ -6,8 +6,8 @@ const Services = () => {
   return (
     <div className="flex flex-col items-center justify-center space-y-8">
       <h2 className="text-4xl 2xl:text-6xl">Servicios destacados</h2>
-      <div className="flex flex-col sm:flex-row gap-6 w-full bg-primary rounded-lg shadow-lg p-6 sm:p-8">
-        <div className="flex flex-col justify-around space-y-4  bg-purple-400 p-6 rounded-lg shadow-lg sm:basis-2/3">
+      <div className="flex flex-col sm:flex-row gap-6 w-full bg-purple-400 rounded-lg shadow-lg p-6 sm:p-8">
+        <div className="flex flex-col justify-around space-y-4  bg-purple-200 p-6 rounded-lg shadow-lg sm:basis-2/3">
           <h3 className="text-4xl font-bold mb-2">Rehabilitación deportiva</h3>
           <p className="text-gray-700 mb-4 max-w-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -35,8 +35,8 @@ const Services = () => {
           className="rounded-lg shadow-lg  object-cover sm:basis-1/3 h-64 sm:h-80 lg:h-96"
         />
       </div>
-      <div className="flex flex-col sm:flex-row-reverse gap-6 w-full bg-primary rounded-lg shadow-lg p-6 sm:p-8">
-        <div className="flex flex-col justify-around space-y-4 bg-purple-400 p-6 rounded-lg shadow-lg sm:basis-2/3">
+      <div className="flex flex-col sm:flex-row-reverse gap-6 w-full bg-purple-400 rounded-lg shadow-lg p-6 sm:p-8">
+        <div className="flex flex-col justify-around space-y-4 bg-purple-200 p-6 rounded-lg shadow-lg sm:basis-2/3">
           <h3 className="text-4xl font-bold mb-2">
             Rehabilitación del suelo pélvico
           </h3>

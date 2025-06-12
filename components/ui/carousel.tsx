@@ -46,7 +46,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           {slides.map((review, index) => (
             <div
               key={index}
-              className="embla__slide bg-white p-6 rounded-lg shadow-md"
+              className="embla__slide bg-white p-6 rounded-lg shadow-md h-full justify-between"
             >
               <div className="flex items-center mb-4">
                 <div className="bg-purple-300 text-gray-800 rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mr-4">

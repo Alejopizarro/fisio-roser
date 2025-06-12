@@ -18,12 +18,12 @@ const Navbar = (props: NavbarProps) => {
   };
 
   return (
-    <div className="fixed left-1/2 top-10 transform -translate-x-1/2 bg-gradient-to-br z-1001 from-slate-50 to-slate-200 shadow-xl flex font-semibold items-center px-4 py-1 max-w-4xl mx-auto rounded-full">
+    <div className="fixed left-1/2 top-5 md:top-10 transform -translate-x-1/2 bg-gradient-to-br z-1001 from-slate-50 to-slate-200 shadow-xl flex font-semibold items-center px-4 py-1 max-w-4xl mx-auto rounded-full">
       <div className="flex sm:hidden space-x-8 overflow-x-auto py-1 px-1">
         {sectionMobile.map((item, idx) => (
           <button
             key={item.name}
-            className={`text-gray-800 text-shadow-slate-400 text-shadow-xl hover:bg-gray-300 h-full px-4 py-2 rounded-full cursor-pointer transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 ${
+            className={`text-gray-800 min-w-max text-shadow-slate-400 text-shadow-xl hover:bg-gray-300 h-full px-4 py-2 rounded-full cursor-pointer transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 ${
               idx === 1
                 ? "bg-purple-700 rounded-full flex items-center text-white"
                 : ""

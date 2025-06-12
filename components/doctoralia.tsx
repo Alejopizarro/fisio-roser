@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Doctoralia = () => {
   return (
-    <div className="-translate-y-8 xl:-translate-y-10 2xl:-translate-y-12 z-100 relative flex flex-col-reverse lg:flex-row items-center bg-primary rounded-xl rounded-bl-4xl shadow-2xl text-slate-50 w-full mb-8">
+    <div className="-translate-y-2 2xl:-translate-y-4 z-100 relative flex flex-col-reverse lg:flex-row items-center bg-primary rounded-xl rounded-bl-4xl shadow-2xl text-slate-50 w-full mb-8">
       <div className="absolute z-10 -top-3 left-0 h-3 rounded-t-2xl w-11/12 mx-4 lg:mx-14 shadow-2xl bg-purple-300 pointer-events-none" />
       <Image
         src="/screen-doctoralia.png"
