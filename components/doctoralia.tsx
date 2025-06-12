@@ -1,8 +1,9 @@
+import { Medal, MessageCircle, Star } from "lucide-react";
 import Image from "next/image";
 
 const Doctoralia = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row items-center bg-primary rounded-xl rounded-bl-4xl shadow-2xl text-slate-50 w-full">
+    <div className="-translate-y-8 xl:-translate-y-10 2xl:-translate-y-12 z-100 relative flex flex-col-reverse lg:flex-row items-center bg-primary rounded-xl rounded-bl-4xl shadow-2xl text-slate-50 w-full mb-8">
       <div className="absolute z-10 -top-3 left-0 h-3 rounded-t-2xl w-11/12 mx-4 lg:mx-14 shadow-2xl bg-purple-300 pointer-events-none" />
       <Image
         src="/screen-doctoralia.png"
@@ -20,6 +21,17 @@ const Doctoralia = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
         </p>
+      </div>
+      <div className="bg-white rounded-full p-4 ring-4 ring-purple-300 inset-shadow-sm/20 text-gray-900 flex items-center space-x-4 w-fit absolute -bottom-11 md:-bottom-8 md:right-4 right-3">
+        <span className="text-lg font-semibold flex items-center gap-x-2">
+          <Star fill="purple" stroke="white" /> 5.0
+        </span>
+        <span className="text-lg font-semibold flex items-center gap-x-2">
+          <Medal fill="purple" stroke="white" /> 4
+        </span>
+        <span className="text-lg font-semibold flex items-center gap-x-2">
+          <MessageCircle fill="purple" stroke="white" /> 100+
+        </span>
       </div>
     </div>
   );

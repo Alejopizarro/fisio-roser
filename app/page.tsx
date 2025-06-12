@@ -38,8 +38,8 @@ export default function Home() {
       <div className="w-full" ref={heroRef}>
         <Hero />
       </div>
-      <div className="w-full" ref={aboutMeRef}>
-        <AboutMe />
+      <div className="w-full" ref={citaRef}>
+        <Doctoralia />
       </div>
       <div className="space-y-8 w-full">
         <div className="w-full" ref={servicesRef}>
@@ -48,8 +48,8 @@ export default function Home() {
         <div className="w-full" ref={reviewsRef}>
           <Reviews />
         </div>
-        <div className="w-full" ref={citaRef}>
-          <Doctoralia />
+        <div className="w-full" ref={aboutMeRef}>
+          <AboutMe />
         </div>
       </div>
     </div>
