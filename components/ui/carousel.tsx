@@ -54,7 +54,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                 </div>
                 <h3 className="text-xl font-semibold">{review.name}</h3>
               </div>
-              <p className="text-gray-700 mb-2">{review.review}</p>
+              <p className="text-gray-700 mb-2 text-left">{review.review}</p>
               <div className="flex space-x-1">
                 {[...Array(review.stars)].map((_, index) => (
                   <span key={index} className="text-yellow-500">
