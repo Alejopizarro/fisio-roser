@@ -4,7 +4,7 @@ import { MoveRight } from "lucide-react";
 
 const Services = () => {
   return (
-    <div className="flex flex-col items-center justify-center space-y-8">
+    <div className="flex flex-col items-center justify-center pt-8 space-y-8">
       <h2 className="text-4xl 2xl:text-6xl">Servicios destacados</h2>
       <div className="flex flex-col sm:flex-row gap-6 w-full bg-purple-400 rounded-lg shadow-lg p-6 sm:p-8">
         <div className="flex flex-col justify-around space-y-4  bg-purple-200 p-6 rounded-lg shadow-lg sm:basis-2/3">
