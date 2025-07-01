@@ -44,7 +44,7 @@ export const reviews = [
 
 const Reviews = () => {
   return (
-    <div className="flex flex-col text-center items-center justify-center">
+    <div className="flex flex-col text-center items-center justify-center pt-8">
       <h2 className="text-4xl font-bold mb-6">Opiniones de pacientes</h2>
       <p className="text-lg text-gray-600 mb-8 max-w-2xl">
         Aquí puedes leer las opiniones de los pacientes satisfechos con mis

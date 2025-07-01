@@ -5,7 +5,7 @@ import { Separator } from "./ui/separator";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-primary text-slate-50">
+    <div className="w-full bg-[color:var(--secondary-color)] text-slate-50">
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 p-4 sm:py-16 sm:px-24 text-left gap-4">
         <div>
           <p className="font-bold text-xl mb-4">Sobre mí</p>
@@ -37,7 +37,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p className="font-bold text-xl mb-4">Roser Sabatell Mor</p>
+          <p className="font-bold text-xl mb-4">Roser Sabater Moll</p>
           <ul className="text-sm font-light text-slate-300 space-y-4">
             <li>
               <h4>
@@ -79,7 +79,7 @@ const Footer = () => {
         <Separator />
         <span className="py-4 block text-sm text-slate-300 justify-start">
           &copy; 2016 - 2025
-          <Link href="*"> Roser Sabatell Mor</Link> Todos los derechos
+          <Link href="*"> Roser Sabater Moll</Link> Todos los derechos
           reservados.
         </span>
       </div>

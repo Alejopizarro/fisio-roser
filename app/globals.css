@@ -48,8 +48,13 @@
 
 :root {
   --radius: 0.625rem;
-  --background: conic-gradient(at top, #f9f9f9, #e9d5ff, #a78bfa);
+  --background: #ece9df;
+  --background-secondary: #fcf9fa;
   --foreground: oklch(0.129 0.042 264.695);
+  --primary-color: #6120b3;
+  --primary-color-light: #9661d7;
+  --drop-shadow-xl: 0 5px 10px #0b054f52;
+  --secondary-color: #0b054f;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);

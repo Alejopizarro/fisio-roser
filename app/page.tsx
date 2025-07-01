@@ -36,14 +36,14 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center p-6 sm:px-10 lg:px-16 xl:px-20 2xl:px-24">
       <Navbar section={sections} sectionMobile={sectionsMobile} />
       <div className="w-full" ref={heroRef}>
-        <Hero />
+        <Hero citaRef={citaRef} reviewsRef={reviewsRef} />
       </div>
       <div className="w-full" ref={citaRef}>
-        <Doctoralia />
+        <Doctoralia reviewsRef={reviewsRef} />
       </div>
       <div className="space-y-8 w-full">
         <div className="w-full" ref={servicesRef}>
-          <Services />
+          <Services citaRef={citaRef} />
         </div>
         <div className="w-full" ref={reviewsRef}>
           <Reviews />
